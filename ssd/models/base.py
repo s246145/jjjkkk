@@ -1,4 +1,4 @@
-from torchvision.models.utils import load_state_dict_from_url
+from torch.hub import load_state_dict_from_url
 import abc
 import logging
 import torch

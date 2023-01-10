@@ -167,7 +167,7 @@ if args.dataset_type == 'VOC':
                                                  transform=transform, target_transform=target_transform, augmentation=augmentation,
                                                  class_labels=class_labels)
 else:
-    train_dataset = datasets.COCOMultiDatasetBase(coco_dir=rootdir, focus=focus, ignore=ignore,
+    train_dataset = datasets.LINEMultiDatasetBase(coco_dir=rootdir, focus=focus, ignore=ignore,
                                                   transform=transform, target_transform=target_transform, augmentation=augmentation,
                                                   class_labels=class_labels)
 

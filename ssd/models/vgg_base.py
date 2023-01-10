@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from torchvision.models.utils import load_state_dict_from_url
+from torch.hub import load_state_dict_from_url
 from ssd.core.layers import Flatten
 from collections import OrderedDict
 
